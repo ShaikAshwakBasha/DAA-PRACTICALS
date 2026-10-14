@@ -1,0 +1,16 @@
+PRIM'S ALGORITHM - STEP-BY-STEP MST
+Start at vertex 0; visited = [0]
+Step 1: choose 0-1 (weight 2), minimum crossing edge
+        Visited vertices: [0, 1]; running cost: 2
+Step 2: choose 1-2 (weight 3), minimum crossing edge
+        Visited vertices: [0, 1, 2]; running cost: 5
+Step 3: choose 1-4 (weight 5), minimum crossing edge
+        Visited vertices: [0, 1, 2, 4]; running cost: 10
+Step 4: choose 0-3 (weight 6), minimum crossing edge
+        Visited vertices: [0, 1, 2, 3, 4]; running cost: 16
+Selected MST edges:
+  0 - 1 : 2
+  1 - 2 : 3
+  1 - 4 : 5
+  0 - 3 : 6
+MST cost = 16
